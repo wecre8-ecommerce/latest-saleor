@@ -102,6 +102,8 @@ Shipping methods can be removed by the user after it has been assigned to a chec
   - Called after `requestPasswordReset` or `customerCreate` mutation.
 - Add `STAFF_SET_PASSWORD_REQUESTED` webhook - #13486, by @Air-t
   - Called after `requestPasswordReset` or `customerCreate` mutation for staff users.
+- Add `NOTIFY_CUSTOMER` flag to `FulfillmentCreated` type - #13559, by @Air-t
+  - Informs apps if customer should be notified when fulfillment is created.
 
 ### Other changes
 - Add possibility to log without confirming email - #13059 by @kadewu
