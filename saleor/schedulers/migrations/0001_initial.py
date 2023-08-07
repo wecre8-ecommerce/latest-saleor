@@ -21,7 +21,7 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ("django_celery_beat", "0016_alter_crontabschedule_timezone"),
+        #("django_celery_beat", "0016_alter_crontabschedule_timezone"),
     ]
 
     operations = [
