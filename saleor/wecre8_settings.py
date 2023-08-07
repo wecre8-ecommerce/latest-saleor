@@ -31,12 +31,12 @@ CITIES_LIGHT_INCLUDE_CITY_TYPES = [
 CITIES_LIGHT_APP_NAME = "provinces"
 CITIES_LIGHT_TRANSLATION_LANGUAGES = ["ar"]
 CITIES_LIGHT_INCLUDE_COUNTRIES = ["SA", "AE", "OM", "BH", "QA", "KW"]
-'''
+
 INSTALLED_APPS += [
     #"cities_light",
     "django_celery_results",
 ]
-
+'''
 SENTRY_OPTS.update(
     {
         "send_default_pii": True,  # type: ignore
