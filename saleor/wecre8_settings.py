@@ -13,7 +13,7 @@ sentry_sdk.init(
 )
 
 TIME_ZONE = CELERY_TIMEZONE = "Asia/Riyadh"
-
+'''
 CITIES_LIGHT_INCLUDE_CITY_TYPES = [
     "PPL",
     "PPLA",
@@ -31,9 +31,9 @@ CITIES_LIGHT_INCLUDE_CITY_TYPES = [
 CITIES_LIGHT_APP_NAME = "provinces"
 CITIES_LIGHT_TRANSLATION_LANGUAGES = ["ar"]
 CITIES_LIGHT_INCLUDE_COUNTRIES = ["SA", "AE", "OM", "BH", "QA", "KW"]
-
+'''
 INSTALLED_APPS += [
-    "cities_light",
+    #"cities_light",
     "django_celery_results",
 ]
 
